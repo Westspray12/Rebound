@@ -10,6 +10,9 @@
 // BC_ : bold color
 // HI_ : high intensity
 // BHI_ : bold high intensity
+// R_ : regex (plus only)
+
+#include <stdio.h>
 
 #define S_AB "\a" // audible bell
 #define S_BS "\b" // back space
@@ -96,3 +99,6 @@
 #define HIB_PU "\033[0;105m" // high intensity purple background
 #define HIB_CY "\033[0;106m" // high intensity cyan background
 #define HIB_WH "\033[0;107m" // high intensity white background
+
+#define R_CS "\033[1;1H\e[2J" // clear screen
+#define R_MS(X, Y) printf("\033[%d;%dH", Y, X); // move cursor
