@@ -1,5 +1,6 @@
-**Families : S_,M_,B_,HIB_,U_,RC_,BC_,HI_,BHI_**
+**Families : S_,M_,B_,HIB_,U_,RC_,BC_,HI_,BHI_,R_**
 
+*R_ is for plus version only.*
 *See usage at the bottom of the file.*
 
 S_ :
@@ -101,6 +102,11 @@ HIB_ :
 - HIB_PU : high intensity background purple
 - HIB_CY : high intensity background cyan
 - HIB_WH : high intensity background white
+
+R_ :
+
+- R_CS : clear screen
+- R_MS : move cursor
 
 working example for C :
 ```C
