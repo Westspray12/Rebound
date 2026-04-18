@@ -1,4 +1,3 @@
-
 // vrodux.h | lit : 1.0.0 - Fully open source.
 
 // S_ : standard
