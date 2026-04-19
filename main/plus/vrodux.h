@@ -99,5 +99,5 @@
 #define HIB_CY "\033[0;106m" // high intensity cyan background
 #define HIB_WH "\033[0;107m" // high intensity white background
 
-#define R_CS "\033[1;1H\e[2J" // clear screen
+#define R_CS "\033[1;1H\033[2J" // clear screen
 #define R_MC(X, Y) printf("\033[%d;%dH", Y, X); // move cursor
