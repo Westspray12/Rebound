@@ -21,5 +21,5 @@ Vrodux is a personal library of mine consisting of shortcuts for escape codes, w
 OS :
 - fedora workstation 43,44
 
-INTERPRETERS :
+IDE :
 - visual studio code
