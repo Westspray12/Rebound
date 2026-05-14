@@ -1,3 +1,5 @@
+# vrodux
+
 **Description :**
 Vrodux is a personal library of mine consisting of shortcuts for escape codes, while some of them can even enhance your terminal and help you in daily tasks.
 
